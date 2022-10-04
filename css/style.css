@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav, ul{
+    list-style: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header{
+
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(73, 211, 245);
+}
+
+
+.ul-menu{
+    display: flex;
+    margin: 2rem;
+}
+.menu_item{
+    padding-right: 2rem;
+}
+a.link_menu:hover{
+    color: rgba(0, 0, 0, 0.527);
+}
+.conteudo_imagem .overlay{
+    position:absolute;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 150vh;
+    z-index: 8;
+}
+.conteudo_imagem{
+    width: 100%;
+    height: 150vh;
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.texto{
+    margin-bottom: 7rem;
+    margin-top: ;
+    color: aliceblue;
+    z-index: 10;
+}
+p{
+    font-size: 30px;
+}
+h4{
+    padding: 10px;
+    z-index: 10;
+    font-size: 40px;
+}
+.btn_explorar{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: .4rem;
+    z-index: 10;
+}
+.btn_explorar:hover{
+    background-color: aqua;
+}
+.informacao{
+    z-index: 10;
+    width: 70rem;
+    height: 10rem;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.conteudo{
+    border: 1px solid black;
+    width: 100%;
+    height: 150vh;
+}
+.rodape{
+    border: 1px solid black;
+
+}
+
