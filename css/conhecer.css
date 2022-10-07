@@ -37,21 +37,6 @@ a.link_menu:hover{
     color: #00000086;
 }
 
-.conteudo_imagem .overlay{
-    position:absolute;
-    background-color: rgba(0, 0, 0, 0.514);
-    width: 100%;
-    height: 100vh;
-    z-index: 8;
-}
-.conteudo_imagem .background{
-  position:absolute;
-  /*background-color: rgba(0, 0, 0, 0.514);*/
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-}
-
 
 .conteudo_imagem{
     width: 100%;
@@ -65,16 +50,18 @@ a.link_menu:hover{
     justify-content:flex-start;
     text-align: center;
     
+    
 }
 .texto{
     margin-top: 6rem;
     margin-bottom: 15rem;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     z-index: 10;
 }
 .texto{
     font-size: 30px;
     margin-bottom: 1rem;
+    color: black;
 }
 h4{
     padding: 10px;
@@ -275,15 +262,14 @@ input[type=text], select, textarea {
   
   h1 {
     z-index: 100;
-    font-size: 30px;
+    font-size: 50px;
     word-break: break-all;
-    padding-top: 2rem;
   }
 
    .reserva-texto{
     color: white;
     z-index: 100;
-    font-size: 1.rem;
+    font-size: 1.5rem;
   }
   
   .row {
@@ -319,14 +305,16 @@ input[type=text], select, textarea {
   /* Menu COnhecer ANgola*/
   .historia{
     z-index: 100;
-    color: white;
+    color: rgb(0, 0, 0);
+    padding: 50px;
   }
   .historia-texto{
     z-index: 100;
-    color: white;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: justify;
     margin: 2rem;
-    padding: 2rem;
+    padding: 1rem;
+    margin-top: -3rem;
   }
  
   @media screen and (max-width: 900px) {

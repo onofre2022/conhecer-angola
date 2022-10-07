@@ -5,17 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+  
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     
     <title>CONHECER ANGOLA</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+            <script src="/js/jquery.mkinfinite.js"></script>
+
+            <script>
+              $(document).ready(function(){
+                $('.background').mkinfinite({
+                  maxZoom:1.4,
+                  animationTime: 4000,
+                  imageRatio: (940 / 720),
+                  isFixedBG:true,
+                  zoomIn: true,
+                  imagesList: new Array(
+                    'https://images.pexels.com/photos/1000982/pexels-photo-1000982.jpeg?cs=srgb&dl=pexels-lrm-exterior-1000982.jpg&fm=jpg',
+                    'https://www.hoteisangola.com/media/images/articles2/img_1418-web.jpg',
+                    'https://www.hoteisangola.com/media/images/articles2/img_1418-web.jpg',
+                    'https://www.hoteisangola.com/media/images/articles2/img_1418-web.jpg',
+                    'https://www.hoteisangola.com/media/images/articles2/img_1418-web.jpg',
+                    )
+                })
+              })
+            </script>
 </head>
 <body>
     <header class="cabecalho">
+      
         <a href="Index.html" class="logo">
             <img src="" width="" alt="">
             <span class="texto-logo">CONHECER ANGOLA</span>
         </a>
         <nav class="menu">
+          
             <ul class="ul-menu">
                 <li class="menu_item">
                     <a href="Index.html" class="link_menu" >Página Inicial</a>
@@ -37,11 +63,13 @@
     </header><!--Fim do cabecalho-->
     <section class="conteudo_imagem">
         <div class="overlay"></div>
+        <div class="background"></div>
+        
         <div class="texto">
             <p class="texto1">Aprecie a melhor beleza de:</p>
             <h4 class="angola">ANGOLA</h4>
             <button class="button" style="vertical-align:middle"><span>Saber mais </span></button>
-        </div>
+          </div>
         <div class="informacao">
             <div class="informacao-item">
                 <i class="fa-solid fa-person"></i>
@@ -65,11 +93,13 @@
                     <p class="populacao-numero"> 32,87 milhões</p>
                 </div>
             </div>
+            <!-- Criação de SlideShow -->
+            
         </div>
     </section>
 
     <section class="conteudo">
-        <h2 class="conteudo-h2">Visite Um Dos pontos Turisticos do nosso País Agora</h2>
+        <h1 class="conteudo-h2">Visite Um Dos pontos Turisticos do nosso País Agora</h1>
         <p class="conteudo-p">Não perca mais tempo e venha ver o que a natureza Angolana melhor lhe oferece</p>
     
         <div class="cabo-ledo">
@@ -83,30 +113,30 @@
           </div>
 
           <div class="cabo-ledo">
-            <img src="/img/cabo-ledo.jpg" alt="cabo-ledo" style="width:100%;">
+            <img src="/img/miradouro.jpg" alt="cabo-ledo" style="width:100%;">
             <div class="cabo-ledo-texto">
-              <h1>Ilha do Mussulo</h1>
-              <p>Se ficaram a achar que Luanda tem sorte em ter uma península como a ilha, esperem até ouvir sobre o Mussulo. Na zona sul de Luanda está localizada este enorme língua de areia com mais de 30 Km de comprimento.
+              <h1>Miradouro da Lua</h1>
+              <p>O Miradouro da Lua tem este nome não porque seja um óptimo lugar para ver a Lua (que provavelmente é) mas devido à paisagem lunar que é possível observar a partir do miradouro. 
                 <a href="#" class="continuar-lendo">continuar... </a>
               </p>
             </div>
           </div>
 
           <div class="cabo-ledo">
-            <img src="/img/cabo-ledo.jpg" alt="cabo-ledo" style="width:100%;">
+            <img src="/img/kalandula-malange.jpg" alt="cabo-ledo" style="width:100%;">
             <div class="cabo-ledo-texto">
-              <h1>Ilha do Mussulo</h1>
-              <p>Se ficaram a achar que Luanda tem sorte em ter uma península como a ilha, esperem até ouvir sobre o Mussulo. Na zona sul de Luanda está localizada este enorme língua de areia com mais de 30 Km de comprimento.
+              <h1>Kalandula</h1>
+              <p>As quedas de Kalandula são a maior ponto de interesse da província de Malange e talvez mesmo de Angola. Estas quedas são muitas...
                 <a href="#" class="continuar-lendo">continuar... </a>
               </p>
             </div>
           </div>
 
           <div class="cabo-ledo">
-            <img src="/img/cabo-ledo.jpg" alt="cabo-ledo" style="width:100%;">
+            <img src="/img/binga.jpg" alt="cabo-ledo" style="width:100%;">
             <div class="cabo-ledo-texto">
-              <h1>Ilha do Mussulo</h1>
-              <p>Se ficaram a achar que Luanda tem sorte em ter uma península como a ilha, esperem até ouvir sobre o Mussulo. Na zona sul de Luanda está localizada este enorme língua de areia com mais de 30 Km de comprimento.
+              <h1>Quedas do Binga</h1>
+              <p>Antes de mais, as quedas do Binga não ficam na província de Benguela, mas sim no Kwanza sul! Apenas a juntamos a esta categoria porque é uma...
                 <a href="#" class="continuar-lendo">continuar... </a>
               </p>
             </div>
@@ -116,6 +146,7 @@
 
     <footer class="rodape">
         <p>&copy</p>
+        
     </footer>
 </body>
 </html>

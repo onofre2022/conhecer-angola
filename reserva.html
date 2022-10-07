@@ -36,17 +36,16 @@
         </nav><!--Fim do Menu-->
     </header><!--Fim do cabecalho-->
     <section class="conteudo_imagem">
-        <div class="overlay"></div>
         <div class="reserva">
             <form action="action_page.php">
           
               <label for="fname">Primeiro Nome</label>
-              <input type="text" id="fname" name="firstname" placeholder="Teu nome..">
+              <input type="text" id="nome" name="firstname" placeholder="Teu nome..">
           
               <label for="lname">Ultimo nome</label>
-              <input type="text" id="lname" name="lastname" placeholder="Último Nome..">
+              <input type="text" id="uname" name="lastname" placeholder="Último Nome..">
           
-              <label for="destino">Destino</label>
+              <label for="destino" id="destino">Destino</label>
               <select id="destino" name="destino">
                 <option value="cabo">Cabo Ledo</option>
                 <option value="ilha">Ilha de Luanda</option>
@@ -57,9 +56,14 @@
                 <option value="quedas">Quedas de Calandula</option>
                 <option value="outro">outro</option>
               </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Descreva a tua viagem.." style="height:200px"></textarea>
+
+              <label for="fname">Telefone</label>
+              <input type="text" id="contacto" name="firstname" placeholder="Insira o número do telefone">
+              
+              <label for="fname">Sua localização</label>
+              <input type="text" id="contacto" name="local" placeholder="AOnde te encontras">
+              
+              
           
               <input type="submit" value="Enviar">
           
